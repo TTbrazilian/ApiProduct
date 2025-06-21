@@ -18,11 +18,11 @@ Permite realizar operações CRUD completas para o cadastro de produtos diversos
 
 ## 🧾 Endpoints disponíveis:
 Método	Rota	Descrição
-POST	/produto	Cadastra um novo produto
-GET	/produto	Retorna todos os produtos
-GET	/produto/:valor	Busca por ID ou nome exato
-PUT	/produto/:id	Atualiza um produto
-DELETE	/produto/:id	Remove um produto do sistema (Produto)
+- POST	/produto	Cadastra um novo produto
+- GET	/produto	Retorna todos os produtos
+- GET	/produto/:valor	Busca por ID ou nome exato
+- PUT	/produto/:id	Atualiza um produto
+- DELETE	/produto/:id	Remove um produto do sistema (Produto)
 
 
 
