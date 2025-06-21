@@ -16,17 +16,15 @@ Permite realizar operações CRUD completas para o cadastro de produtos diversos
 
 ---
 
-## 🧾 Modelo de Dados (Produto)
+## 🧾 Endpoints disponíveis:
+Método	Rota	Descrição
+POST	/produto	Cadastra um novo produto
+GET	/produto	Retorna todos os produtos
+GET	/produto/:valor	Busca por ID ou nome exato
+PUT	/produto/:id	Atualiza um produto
+DELETE	/produto/:id	Remove um produto do sistema (Produto)
 
-| Campo         | Tipo     | Obrigatório | Descrição                      |
-|---------------|----------|-------------|--------------------------------|
-| `nome`        | String   | ✅           | Nome do produto                |
-| `descricao`   | String   | ✅           | Descrição do produto           |
-| `cor`         | String   | ✅           | Cor do produto                 |
-| `peso`        | Number   | ✅           | Peso do produto (em kg)        |
-| `tipo`        | String   | ✅           | Tipo ou categoria              |
-| `preco`       | Number   | ✅           | Preço em reais                 |
-| `dataCadastro`| Date     | ❌ (auto)    | Data de cadastro no sistema    |
+
 
 ---
 
