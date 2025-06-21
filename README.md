@@ -64,9 +64,11 @@ npm run dev
 
 ---
 
-## 🌍 Deploy da API:
+## Configure as variáveis de ambiente:
 
- https://apiprodutostrabmarcio.onrender.com
+Crie um ficheiro chamado .env na raiz do projeto.
+Adicione a sua string de conexão do MongoDB Atlas a este ficheiro:
+MONGO_URI=mongodb+srv://seu_usuario:sua_senha@seu_cluster...
 
 
 
